@@ -20,7 +20,7 @@ public class Main {
         if (num % 2 == 0) {
             System.out.println("Even");
         } else {
-            System.out.println("Odd");
+            System.out.println("Odd no.");
         }
     }
 }
