@@ -57,4 +57,14 @@ public class practice1 {
         }
     }
 
+    public void ques6() {
+
+    }
+
+    public void ques7() {
+        Scanner input = new Scanner(System.in);
+        char c1 = input.next().charAt(0);
+
+    }
+
 }
