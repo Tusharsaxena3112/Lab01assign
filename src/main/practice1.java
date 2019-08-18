@@ -58,13 +58,91 @@ public class practice1 {
     }
 
     public void ques6() {
-
+        //working.....
     }
 
     public void ques7() {
         Scanner input = new Scanner(System.in);
         char c1 = input.next().charAt(0);
-
+        if ((int) c1 >= 65 && (int) c1 <= 91 || (int) c1 >= 97 && (int) c1 <= 122) {
+            System.out.println("Alphabet");
+        } else if ((int) c1 >= 48 && (int) c1 <= 57) {
+            System.out.println("Digit");
+        } else {
+            System.out.println("special character");
+        }
     }
 
+    public void ques8() {
+        Scanner input = new Scanner(System.in);
+        String gen = input.nextLine();
+        int age = input.nextInt();
+        if (gen.equals("female") && (age >= 1 && age <= 58)) {
+            System.out.println("8.2%");
+        } else if (gen.equals("female") && (age >= 59 && age <= 100)) {
+            System.out.println("9.2%");
+        } else if (gen.equals("male") && (age >= 1 && age <= 58)) {
+            System.out.println("8.4%");
+        } else if (gen.equals("male") && (age >= 59 && age <= 100)) {
+            System.out.println("10.5%");
+        } else {
+            System.out.println("Invalid input !Error");
+            System.out.printf("%d %s", (age), gen);
+        }
+    }
+
+    public void ques9() {
+        Scanner input = new Scanner(System.in);
+        char c = input.next().charAt(0);
+        if ((int) c >= 65 && (int) c <= 90) {
+            System.out.printf("%c", (int) c + 32);
+        } else if ((int) c >= 97 && (int) c <= 122) {
+            System.out.printf("%c", (int) c - 32);
+        }
+    }
+
+    public void ques10() {
+        Scanner input = new Scanner(System.in);
+        int month = input.nextInt();
+        switch (month) {
+            case 1:
+                System.out.println("January");
+                break;
+            case 2:
+                System.out.println("feb");
+                break;
+            case 3:
+                System.out.println("march");
+                break;
+            case 4:
+                System.out.println("april");
+                break;
+            case 5:
+                System.out.println("may");
+                break;
+            case 6:
+                System.out.println("June");
+                break;
+            case 7:
+                System.out.println("July");
+                break;
+            case 8:
+                System.out.println("aug");
+                break;
+            case 9:
+                System.out.println("sept");
+                break;
+            case 10:
+                System.out.println("oct");
+                break;
+            case 11:
+                System.out.println("nov");
+                break;
+            case 12:
+                System.out.println("dec");
+                break;
+            default:
+                System.out.println("Invalid");
+        }
+    }
 }
