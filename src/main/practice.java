@@ -10,9 +10,11 @@ public class practice {
         //pobj.ques4();  //Write a program in Java to accept a number from the user and to check whether the number if positive, negative or zero.
         //pobj.ques5(); //Write a program in Java to accept a number from the user and to check whether the number if not prime or prime.
         //pobj.ques7();
-        pobj.ques8();
+        //pobj.ques8();
         //pobj.ques9();
         //pobj.ques10();
+        //pobj.ques11();
+        //pobj.ques12();
     }
 }
 

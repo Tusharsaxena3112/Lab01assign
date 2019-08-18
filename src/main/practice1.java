@@ -145,4 +145,30 @@ public class practice1 {
                 System.out.println("Invalid");
         }
     }
+
+    public void ques11() {
+        Scanner input = new Scanner(System.in);
+        int start = input.nextInt();
+        int end = input.nextInt();
+        int m;
+        if (start % 2 != 0) {
+            m = start + 1;
+        } else {
+            m = start;
+        }
+        for (int i = m; i <= end; i = i + 2) {
+            System.out.println(i);
+        }
+    }
+
+    public void ques12() {
+        Scanner input = new Scanner(System.in);
+        int rem = 0, sum = 0;
+        int num = input.nextInt();
+        for (int i = num; i > 0; i = i / 10) {
+            rem = i % 10;
+            sum += rem;
+        }
+        System.out.println(sum);
+    }
 }
