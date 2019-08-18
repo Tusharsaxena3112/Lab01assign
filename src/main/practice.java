@@ -15,6 +15,7 @@ public class practice {
         //pobj.ques10();
         //pobj.ques11();
         //pobj.ques12();
+        //pobj.ques13();
     }
 }
 
