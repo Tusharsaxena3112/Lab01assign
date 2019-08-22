@@ -1,4 +1,5 @@
 package main;
+//After starting a new project we first initialize git.
 
 
 import java.util.Scanner;
