@@ -1,4 +1,4 @@
-package toStringEqualsandhashcode;
+package toString;
 
 public class A {
 
